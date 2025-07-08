@@ -1,0 +1,12 @@
+pypdf
+pymupdf
+langchain-community
+langchain-huggingface
+sentence-transformers
+langchain_ollama
+langchain-chroma
+jupyterlab
+streamlit
+black
+protobuf==3.20.*
+watchdog
