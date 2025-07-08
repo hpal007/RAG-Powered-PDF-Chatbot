@@ -1,1 +1,10 @@
-{}
+{
+  "2025-07-08 13:38:24": {
+    "query": "What is LoRA ?",
+    "result": "According to the text, LoRA (Low-Rank Adaptation) is a technique that:\n\n*   Reduces the GPU memory needed for training by freezing most parameters and only training low-rank matrices.\n*   Enables easier task-switching during deployment by swapping LoRA matrices.\n*   Offers a 25% training speedup compared to full fine-tuning.\n*   Doesn't incur any extra inference delay because the matrices can be merged with the pre-trained weights when deployed."
+  },
+  "2025-07-08 13:39:22": {
+    "query": "How to Applying LoRA to Transformer Models ?",
+    "result": "Based on the provided context, here’s how LoRA is applied to Transformer models:\n\nThe core idea is to optimize performance under a limited parameter budget by adapting different weight matrices within the self-attention module of the Transformer. \n\nHowever, the text doesn’t provide a detailed explanation of *how* this adaptation is done. It only states that it’s explored. \n\nTo get a full understanding, you would need to consult additional resources that explain the LoRA implementation details."
+  }
+}
